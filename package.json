@@ -1,0 +1,15 @@
+{
+  "name": "typeform-challenge-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Renārs Vilnis",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
