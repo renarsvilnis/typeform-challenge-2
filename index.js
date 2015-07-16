@@ -30,7 +30,6 @@ request(getUrl, function(err, res, body) {
   console.log('Values:', values);
   console.log('Array sum:', sumArray(values));
 
-  // make post request
   var resultUrl = getUrl + '/' + token + '/' + sumArray(values);
 
   request(resultUrl, function(err, res, resBody) {
